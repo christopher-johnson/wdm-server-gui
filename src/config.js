@@ -1,7 +1,7 @@
 module.exports = {
 	"server": {
 		"port": 4545,
-		"shortUrlBasename": "http://yasgui.org/short/",
+		"shortUrlBasename": "http://wdm-rdf.wmflabs.org/short/",
 		"db" : {
 			"engine": "tingodb",
 			"mongodb":{
