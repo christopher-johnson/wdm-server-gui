@@ -8,7 +8,7 @@ var express = require('express'),
 	manifest = require('./manifest');
 
 var dev = !!process.env.yasguiDev;
-var yasguiDir = __dirname + '/../node_modules/yasgui';
+var yasguiDir = __dirname + '/../';
 var app = express();
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
 

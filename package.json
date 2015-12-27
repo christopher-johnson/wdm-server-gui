@@ -7,7 +7,8 @@
   "author": "Laurens Rietveld",
   "homepage": "http://yasgui.org",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "lint": "jshint **.js"
   },
   "devDependencies": {
     "brfs": "^1.2.0",
@@ -30,7 +31,8 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "~0.1.1",
     "vinyl-transform": "0.0.1",
-    "watchify": "^0.6.4"
+    "watchify": "^0.6.4",
+    "jshint": "latest"
   },
   "bugs": "https://github.com/YASGUI/Server/issues/",
   "keywords": [

@@ -36,9 +36,9 @@ gulp.task('tag', function() {
 });
 
 
-gulp.task('bumpPatch', function() { return inc('patch'); })
-gulp.task('bumpMinor', function() { return inc('minor'); })
-gulp.task('bumpMajor', function() { return inc('major'); })
+gulp.task('bumpPatch', function() { return inc('patch'); });
+gulp.task('bumpMinor', function() { return inc('minor'); });
+gulp.task('bumpMajor', function() { return inc('major'); });
 
 gulp.task('patch', function() {
 	runSequence('bumpPatch', 'tag', 'publish', 'push');
@@ -53,7 +53,7 @@ gulp.task('major', function() {
 
 gulp.task('serve', function() {
 	process.env.yasguiDev = 1;
-	nodemon({ script: './src/index.js', watch: './src' })
+	nodemon({ script: './src/index.js', watch: './src' });
 });
 
 gulp.task('default', function() {
